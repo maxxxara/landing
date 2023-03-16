@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link href="https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@300;400;500;600;700;800&family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <script>
+	    tailwind.config = {
+	      theme: {
+	      	screens: {
+		      'sm': '640px',
+		      // => @media (min-width: 640px) { ... }
+
+		      'md': '768px',
+		      // => @media (min-width: 768px) { ... }
+
+		      'lg': '1024px',
+		      // => @media (min-width: 1024px) { ... }
+
+		      'xl': '1280px',
+		      // => @media (min-width: 1280px) { ... }
+
+		      '2xl': '1536px',
+		      // => @media (min-width: 1536px) { ... }
+		    },
+	        extend: {
+	          colors: {
+	            primary: '#166B8C',
+	            secondary: '#FE7C31',
+	            sky: '#2eeba7',
+	            white: '#FFFFFF',
+	            black: '#222222'
+	          }
+	        }
+	      }
+	    }
+	  </script>
+</head>
+<body>
+	<header class="px-10 bg-red w-full py-7 flex justify-between items-center">
+		<img src="./images/logo.svg" class="w-[138px]" />
+		<ul class="flex gap-10 header__nav">
+			<li>
+				<a href="#" class="text-xl text-white font-semibold">Investor Chat</a>
+			</li>
+			<li>
+				<a href="#" class="text-xl text-white font-semibold">About the company</a>
+			</li>
+			<li>
+				<a href="#" class="text-xl text-white font-semibold">Streams and recordings</a>
+			</li>
+			<li>
+				<a href="#" class="text-xl text-white font-semibold">Object Analytics</a>
+			</li>
+		</ul>
+		<div class="flex items-center gap-4">
+			<p class="text-xl text-white font-semibold">EN</p>
+			<button class="header__sign-button text-white flex items-center font-medium gap-4 bg-[#514F6F] px-5 py-3 rounded-full">To come in <i class="w-5" data-feather="user"></i></button>
+		</div>
+	</header>
+
+	<!-- HERO -->
+	<section class="cont px-32 mt-6 hero">
+		<h1 class="heading__gradient text-[88px] font-extrabold leading-[87px]">Intelligence <br> for real estate investment UAE</h1>
+		<p class="hero__paragraph mt-4 text-3xl text-white font-semibold">Use Realist artificial intelligence to find the best investment property in the UAE. Know in advance what ROI any apartment has and how much the property value will increase in 1, 2 or 3 years.</p>
+		<div class="flex justify-between gap-[10px] mt-20 hero__frames">
+			<div>
+				<div class="flex items-center gap-2 text-white gap-10">
+					<i data-feather="check-circle"></i>
+					<p class="text-MD text-white font-semibold underline underline-offset-4">Online booking</p>
+				</div>
+				<img src="./images/phone1.png" class="mt-8">
+			</div>
+			<div>
+				<div class="flex items-center gap-2 mt-10 text-white">
+					<i data-feather="check-circle"></i>
+					<p class="text-MD text-white font-semibold underline underline-offset-4">Online booking</p>
+				</div>
+				<img src="./images/phone1.png" class="mt-8">
+			</div>
+			<div>
+				<div class="flex items-center gap-2 -mt-10 text-white">
+					<i data-feather="check-circle"></i>
+					<p class="text-MD text-white font-semibold underline underline-offset-4">Online booking</p>
+				</div>
+				<img src="./images/phone1.png" class="mt-8">
+			</div>
+			<div>
+				<div class="flex items-center gap-2 mt-20 text-white">
+					<i data-feather="check-circle"></i>
+					<p class="text-MD text-white font-semibold underline underline-offset-4">Online booking</p>
+				</div>
+				<img src="./images/phone1.png" class="mt-8">
+			</div>
+		</div>
+	</section>
+
+	<!-- BOXES -->
+	<section class="cont mt-10">
+		<div class="px-40 titles">
+			<h1 class="heading__gradient text-7xl font-extrabold">Complete market transparency</h1>
+			<h4 class="text-white text-5xl font-bold pr-32 mt-4">Detailed analytics from AI and an online service for buying investment property</h4>
+		</div>
+		<div class="flex grid grid-cols-3 sm:px-0 mt-20 gap-4 boxes__grid">
+			<div class="bg-[#1B89D1] py-20 px-12 rounded-3xl shadow-lg">
+				<h4 class="text-4xl text-center text-white font-bold">We select only the best</h4>
+				<p class="text-white mt-2 text-2xl text-center">Artificial intelligence "Realist" selects the TOP 1% (best offers) 24/7 in 20 cities of the world</p>
+			</div>
+			<div class="bg-[#064576] py-20 px-12 rounded-3xl shadow-lg">
+				<h4 class="text-4xl text-center text-white font-bold">We select only the best</h4>
+				<p class="text-white mt-2 text-2xl text-center">Artificial intelligence "Realist" selects the TOP 1% (best offers) 24/7 in 20 cities of the world</p>
+			</div>
+			<div class="bg-[#1B89D1] py-20 px-12 rounded-3xl shadow-lg">
+				<h4 class="text-4xl text-center text-white font-bold">We select only the best</h4>
+				<p class="text-white mt-2 text-2xl text-center">Artificial intelligence "Realist" selects the TOP 1% (best offers) 24/7 in 20 cities of the world</p>
+			</div>
+		</div>
+	</section>
+
+	<!-- VIDEO1 -->
+	<section class="cont mt-40">
+		<div class="px-40 titles">
+			<h1 class="heading__gradient text-7xl font-extrabold">It's already really working!</h1>
+			<h4 class="text-white text-6xl font-bold pr-32 mt-4">Make data-driven decisions</h4>
+			<p class="text-white text-3xl font-medium mt-14">Artificial intelligence is the realist's strength. AI finds the most profitable apartments to buy, creates selections, gives forecasts, calculates ROI, IRR and suggests the best investment opportunities for today.</p>
+		</div>
+		<div class="px-24 rounded-[40px] mt-20 video1__video">
+			<img class="w-full rounded-[40px]" src="./images/1.png">
+		</div>
+	</section>
+
+	<!-- COUNTER -->
+	<section class="cont stats mt-20">
+		<div class="px-40 titles">
+			<h1 class="heading__gradient text-6xl font-extrabold">Recognized as the best AI in the world for real estate investment!</h1>
+			<h4 class="text-white text-4xl font-bold pr-32 mt-4">Over 5,000 publications in leading international media and thousands of active users around the world</h4>
+			<div class="stats__cont bg-[#161F8C] mt-14 shadow-2xl px-20 py-10 rounded-3xl">
+				<div class="stats__cont-item flex justify-between items-center">
+					<div class="text-white">
+						<p class="text-4xl font-extrabold">4.87/5</p>
+						<p class="text-lg font-medium">customer score</p>
+					</div>
+					<div class="text-white">
+						<p class="text-4xl font-extrabold">75 000+</p>
+						<p class="text-lg font-medium">Active Users</p>
+					</div>
+					<div class="text-white">
+						<p class="text-4xl font-extrabold">1 845 000+</p>
+						<p class="text-lg font-medium">Analyzed objects per day</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="slider pl-20 mt-20 pb-80">
+		<div class="px-40 titles">
+			<h1 class="heading__gradient text-6xl font-extrabold">Media about</h1>
+		</div>
+		<div class="flex justify-between carousel1 mt-14">
+			<div class="slider__card bg-white px-10 pb-4 rounded-xl">
+				<img src="./images/card.png">
+				<p class="text-xl slider__card-text font-semibold">Desert of unicorns: how not to fail the launch of a startup in the Arab Silicon Valley</p>
+				<p class="text-[#B5B5B5] text-md mt-10">29.07.2023</p>
+			</div>
+			<div class="slider__card bg-white px-10 pb-4 rounded-xl">
+				<img src="./images/card.png">
+				<p class="text-xl slider__card-text font-semibold">Desert of unicorns: how not to fail the launch of a startup in the Arab Silicon Valley</p>
+				<p class="text-[#B5B5B5] text-md mt-10">29.07.2023</p>
+			</div>
+			<div class="slider__card bg-white px-10 pb-4 rounded-xl">
+				<img src="./images/card.png">
+				<p class="text-xl slider__card-text font-semibold">Desert of unicorns: how not to fail the launch of a startup in the Arab Silicon Valley</p>
+				<p class="text-[#B5B5B5] text-md mt-10">29.07.2023</p>
+			</div>
+			<div class="slider__card bg-white px-10 pb-4 rounded-xl">
+				<img src="./images/card.png">
+				<p class="text-xl slider__card-text font-semibold">Desert of unicorns: how not to fail the launch of a startup in the Arab Silicon Valley</p>
+				<p class="text-[#B5B5B5] text-md mt-10">29.07.2023</p>
+			</div>
+			<div class="slider__card bg-white px-10 pb-4 rounded-xl">
+				<img src="./images/card.png">
+				<p class="text-xl slider__card-text font-semibold">Desert of unicorns: how not to fail the launch of a startup in the Arab Silicon Valley</p>
+				<p class="text-[#B5B5B5] text-md mt-10">29.07.2023</p>
+			</div>
+			<div class="slider__card bg-white px-10 pb-4 rounded-xl">
+				<img src="./images/card.png">
+				<p class="text-xl slider__card-text font-semibold">Desert of unicorns: how not to fail the launch of a startup in the Arab Silicon Valley</p>
+				<p class="text-[#B5B5B5] text-md mt-10">29.07.2023</p>
+			</div>
+			<div class="slider__card bg-white px-10 pb-4 rounded-xl">
+				<img src="./images/card.png">
+				<p class="text-xl slider__card-text font-semibold">Desert of unicorns: how not to fail the launch of a startup in the Arab Silicon Valley</p>
+				<p class="text-[#B5B5B5] text-md mt-10">29.07.2023</p>
+			</div>
+		</div>
+	</section>
+
+<script>feather.replace()</script>
+<script
+  src="https://code.jquery.com/jquery-3.6.4.js"
+  integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E="
+  crossorigin="anonymous"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script type="text/javascript">
+$('.carousel1').slick({
+  slidesToShow: 4,
+  slidesToScroll: 1,
+  centerMode: true,
+  arrows: false,
+  responsive: [
+        {
+            breakpoint: 1440,
+            settings: {
+                slidesToShow: 4,
+                slidesToScroll: 4,
+            }
+        },
+        {
+            breakpoint: 1100,
+            settings: {
+                slidesToShow: 3,
+                slidesToScroll: 3
+            }
+        },
+        {
+            breakpoint: 800,
+            settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2
+            }
+        },
+        {
+            breakpoint: 700,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+            }
+        }
+  ]
+});
+</script>
+</body>
+</html>
